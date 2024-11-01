@@ -27,7 +27,7 @@ module.exports = function (api) {
             "@thunks": "./src/store/thunks/index.ts",
             "@theme": "./src/theme/index.ts",
             "@types": "./src/types",
-            "@utility": "./src/utility/index.ts",
+            "@utility": "./src/utils/index.ts",
           },
         },
       ],

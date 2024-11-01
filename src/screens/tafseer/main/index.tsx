@@ -1,14 +1,20 @@
-import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { gStyles, theme } from "@theme";
+import { StyleSheet, Text, View } from "react-native";
 
 export const TafseerMain = () => {
   return (
-    <View>
-      <Text>Quran</Text>
+    <View style={styles.main}>
+      <Text>Tafseer</Text>
     </View>
   );
 };
 
 export default TafseerMain;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  main: {
+    ...gStyles.mainContainer,
+    paddingTop: theme.header.height,
+  },
+});
